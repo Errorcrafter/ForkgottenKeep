@@ -553,6 +553,7 @@ Note: In case you haven't gotten the memo, nearly everything here is ripped stra
     background-color: var(--background-text-area);
     color: #fff;
 }
+/* coloured bot tags */
 .botTagRegular-2HEhHi {
     transition: .5s;
     background: #ff262644;
@@ -562,4 +563,18 @@ Note: In case you haven't gotten the memo, nearly everything here is ripped stra
     transition: .5s;
     background: #ff2626ab;
     color: #ffffff;
+}
+/* special tag for me :) */
+.avatar-1BDn8e[src*="700289281096286303"] + h2 .username-1A8OIy::after {
+    content: 'Custom Tag Content';
+    color: #fff;
+    background: #7289da;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    height: 1.28em;
+    padding: 1px 4px;
+    border-radius: 3px;
+    line-height: 1.3;
+    margin-left: 4px;
 }
