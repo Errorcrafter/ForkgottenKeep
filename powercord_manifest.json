@@ -1,8 +1,8 @@
 {
-    "name": "ForgottenKeep",
-    "description": "The dark theme, that everyone has wondered about, is finally here!",
-    "version": "1.8",
-    "author": "Awish#6969",
+    "name": "PyroCord",
+    "description": "fork of awish's forgottenkeep",
+    "version": "0.1",
+    "author": "macpherson#1415",
     "theme": "index.css",
     "license": "MIT"
 }
