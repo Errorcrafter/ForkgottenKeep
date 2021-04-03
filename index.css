@@ -1,3 +1,6 @@
+/* 
+Note: In case you haven't gotten the memo, nearly everything here is ripped straight from 
+*/
 .theme-dark,
 :root {
   --background-primary: #181818 !important;
@@ -110,34 +113,6 @@
 .theme-dark .selected-1Tbx07:active{
     background-color: #4b4b4b;
 }
-/* .theme-dark .expandedFolderBackground-1cujaW {
-    position: absolute;
-    top: 0;
-    left: 12px;
-    bottom: 8px;
-    width: 48px;
-    border-radius: 24px;
-    -webkit-transition: background-color .15s ease-out;
-    transition: background-color .15s ease-out;
-    background-color: #2b2b2b;
-}
-.theme-dark .closedFolderIconWrapper-2sTcE6 {
-    width: 48px;
-    height: 48px;
-    padding: 4px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: grid;
-    background-color: #2b2b2b;
-    grid-template: 1fr 1fr/1fr 1fr;
-    justify-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-.theme-dark .closedFolderIconWrapper-2sTcE6:hover{
-    background-color: #424242;
-} */
 .theme-dark .peopleList-3c4jOR {
     padding-bottom: 8px;
     background-color: #2b2b2b;
@@ -461,10 +436,10 @@
     color: #ff6739;
 }
 .modeConnected-3IsKId:hover .name-23GUGE, .modeConnected-3IsKId:hover .name-23GUGE, .modeSelected-346R90:hover .name-23GUGE, .modeSelected-346R90:hover .name-23GUGE, .modeUnread-1qO3K1:hover .name-23GUGE, .modeUnread-1qO3K1:hover .name-23GUGE, .notInteractive-1X92pj.modeConnected-3IsKId:hover .name-23GUGE, .notInteractive-1X92pj.modeSelected-346R90:hover .name-23GUGE{
-    color: #c1cefd;
+    color: #fff;
 }
 .modeSelected-346R90 .name-23GUGE{
-    color: #fff;
+    color: #ff5959;
 }
 .unreadMentionsBar-1Bu1dC{
     background-color: #ff6739;
@@ -580,11 +555,11 @@
 }
 .botTagRegular-2HEhHi {
     transition: .5s;
-    background: #ff26262a;
+    background: #ff262644;
     color: #ffffff;
 }
 .botTagRegular-2HEhHi:hover {
     transition: .5s;
-    background: #ff262644;
+    background: #ff2626ab;
     color: #ffffff;
 }
