@@ -1,6 +1,14 @@
 /* 
-Note: In case you haven't gotten the memo, nearly everything here is ripped straight from 
+Note: In case you haven't gotten the memo, nearly everything here is ripped straight from forgottenkeep.
 */
+
+/* font Import */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains%20Mono&display=swap');
+#app-mount {
+    font-family : 'JetBrains Mono';
+    font-size : 24px; /*Change Font size here*/
+}
+
 .theme-dark,
 :root {
   --background-primary: #181818 !important;
