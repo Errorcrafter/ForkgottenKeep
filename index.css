@@ -570,3 +570,23 @@ Note: In case you haven't gotten the memo, nearly everything here is ripped stra
 .wrapper-2jXpOf.modeSelected-346R90:hover .icon-1DeIlz  {
     color: #ff5959;
 }
+/* Removes Clyde's popout */
+.ephemeral-1PsL1r>.contents-2mQqc9,
+.ephemeral-1PsL1r .avatar-1BDn8e  {
+  pointer-events: none !important;
+}
+.avatar-1BDn8e[src*="700289281096286303"] + h2 .username-1A8OIy::after,
+.avatar-3EQepX[data-user-id="700289281096286303"] + .headerInfo-30uryT .username-2b1r56,
+.avatar-3W3CeO[data-user-id="700289281096286303"] + .text-37NqbO .username-31C1TQ {
+    content: 'nice text';
+    color: #fff;
+    background: #7289da;
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    height: 1.28em;
+    padding: 1px 4px;
+    border-radius: 3px;
+    line-height: 1.3;
+    margin-left: 4px;
+}
