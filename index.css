@@ -446,6 +446,9 @@ Use that instead.
 .modeSelected-346R90:hover .name-23GUGE{
     color: #ff5151;
 }
+.name-23GUGE:hover{
+    color: #bdbdbd;
+}
 .unreadMentionsBar-1Bu1dC{
     background-color: #ff6739;
 }
@@ -619,4 +622,8 @@ Use that instead.
 }
 .wordmark-2iDDfm > svg {
   width: 0px;
+}
+/* making open folder icons more visible */
+.folder-1hbNCn .expandedFolderIconWrapper-Huv7rA {
+    color: #ff8059;
 }
