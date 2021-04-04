@@ -624,6 +624,14 @@ Use that instead.
   width: 0px;
 }
 /* making open folder icons more visible */
-.folder-1hbNCn .expandedFolderIconWrapper-Huv7rA {
-    color: #ff8059;
+.theme-dark .expandedFolderBackground-1cujaW {
+    position: absolute;
+    top: 0;
+    left: 12px;
+    bottom: 8px;
+    width: 48px;
+    border-radius: 24px;
+    -webkit-transition: background-color .15s ease-out;
+    transition: background-color .15s ease-out;
+    background-color: #2b2b2b;
 }
