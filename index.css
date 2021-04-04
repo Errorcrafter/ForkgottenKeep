@@ -1,5 +1,6 @@
 /* 
-Note: In case you haven't gotten the memo, nearly everything here is ripped straight from forgottenkeep.
+Note: In case you haven't gotten the memo, nearly everything here is ripped straight from ForgottenKeep.
+Use that instead.
 */
 
 .theme-dark,
@@ -568,12 +569,14 @@ Note: In case you haven't gotten the memo, nearly everything here is ripped stra
     background: #ff2626ab;
     color: #ffffff;
 }
-/* coloured bot tags when bot has custom presence - thanks awish */
-.nameTag-2IFDfL .botTagRegular-2HEhHi{
+/* fix for coloured bot tags when bot has custom presence - thanks awish */
+.botTagInvert-18-95s{
+    transition: .5s;
     background-color: #ff262644;
     color: #ffffff;
 }
-.nameTag-2IFDfL .botTag-ymWxY6:hover{
+.botTagInvert-18-95s:hover{
+    transition: .5s;
     background-color: #ff2626ab;
     color: #ffffff;
 }
