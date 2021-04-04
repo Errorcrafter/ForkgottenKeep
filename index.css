@@ -5,9 +5,9 @@ Note: In case you haven't gotten the memo, nearly everything here is ripped stra
 /* font Import */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 /* Font change */
-/* ::-webkit-input-placeholder, body, button, input, select, textarea{
+::-webkit-input-placeholder, body, button, input, select, textarea{
 font-family: 'Quicksand'
-} */
+}
 
 .theme-dark,
 :root {
