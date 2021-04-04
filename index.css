@@ -444,13 +444,13 @@ font-family: 'Quicksand'
     color: #ff6739;
 }
 .modeSelected-346R90:hover .name-23GUGE, .modeUnread-1qO3K1:hover .name-23GUGE, .notInteractive-1X92pj.modeConnected-3IsKId .name-23GUGE, .notInteractive-1X92pj.modeSelected-346R90 .name-23GUGE{
-    color: #fa9e81;
+    color: #ff8059;
 }
 .modeSelected-346R90 .name-23GUGE{
     color: #ff3131;
 }
 .modeSelected-346R90:hover .name-23GUGE{
-    color: #fd8383;
+    color: #ff5151;
 }
 .unreadMentionsBar-1Bu1dC{
     background-color: #ff6739;
@@ -580,13 +580,13 @@ font-family: 'Quicksand'
     color: #ff6739;
 }
 .wrapper-2jXpOf.modeUnread-1qO3K1:hover .icon-1DeIlz  {
-    color: #fa9e81;
+    color: #ff8059;
 }
 .wrapper-2jXpOf.modeSelected-346R90 .icon-1DeIlz {
     color: #ff3131;
 }
 .wrapper-2jXpOf.modeSelected-346R90:hover .icon-1DeIlz  {
-    color: #fd8383;
+    color: #ff5151;
 }
 .wrapper-2jXpOf:hover .icon-1DeIlz  {
     color: #bdbdbd;
