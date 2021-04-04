@@ -2,13 +2,6 @@
 Note: In case you haven't gotten the memo, nearly everything here is ripped straight from forgottenkeep.
 */
 
-/* font Import */
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-/* Font change */
-::-webkit-input-placeholder, body, button, input, select, textarea{
-font-family: 'Quicksand'
-}
-
 .theme-dark,
 :root {
   --background-primary: #181818 !important;
@@ -575,7 +568,16 @@ font-family: 'Quicksand'
     background: #ff2626ab;
     color: #ffffff;
 }
-/* Yoinked from Corellan */
+/* coloured bot tags when bot has custom presence - thanks awish */
+.nameTag-2IFDfL .botTagRegular-2HEhHi{
+    background-color: #ff262644;
+    color: #ffffff;
+}
+.nameTag-2IFDfL .botTag-ymWxY6:hover{
+    background-color: #ff2626ab;
+    color: #ffffff;
+}
+/* Channel icons change colour - yoinked from Corellan */
 .wrapper-2jXpOf.modeUnread-1qO3K1 .icon-1DeIlz {
     color: #ff6739;
 }
@@ -595,4 +597,23 @@ font-family: 'Quicksand'
 .ephemeral-1PsL1r>.contents-2mQqc9,
 .ephemeral-1PsL1r .avatar-1BDn8e  {
   pointer-events: none !important;
+}
+/* watermark */
+@font-face {
+  font-family: 'Discord';
+  font-weight: 700;
+  src: url("https://raw.githubusercontent.com/powercord-org/powercord-backend/my-awesome-branch/web/src/assets/discord-font.otf") format("opentype");
+}
+.wordmark-2iDDfm:after {
+  content: "PyroCord";
+  font-size: 15px;
+  position: absolute;
+  width: 4000px;
+  top: 5px;
+  padding-left: -3px;
+  font-family: 'Discord';
+  color: var(--accent);
+}
+.wordmark-2iDDfm > svg {
+  width: 0px;
 }
