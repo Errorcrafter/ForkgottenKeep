@@ -689,3 +689,31 @@ Use that instead.
   .separator-2I32lJ {
     display: none;
   }
+/* Calendar stuffs by Corellan */
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day {
+  transition: .5s;
+}
+  .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover {
+  transition: .5s;
+  background: #ff3131 !important;
+  color: #fff;
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--selected {
+  transition: .25s;
+  background: var(--accent-primary) !important;
+  color: #ff8059;
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day--selected:hover {
+  transition: .25s;
+  background: #ff6739 !important;
+  color: #fff;
+}
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after,
+.theme-light .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after {
+  background: #ff6739;
+  color: #ff6739;
+}
+/* Making tooltips actually visible (taken from a newer version of forgottenkeep) */
+.tooltip-2QfLtc {
+  background-color: var(--background-text-area) !important;
+}
