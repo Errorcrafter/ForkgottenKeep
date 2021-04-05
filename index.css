@@ -717,3 +717,11 @@ Use that instead.
 .tooltip-2QfLtc {
   background-color: var(--background-text-area) !important;
 }
+/* Draggable title bar on Windows (by void#0001) */
+.maximized .titleBar-AC4pGV {
+  margin-top: 0;
+  height: 22px;
+}
+.maximized .titleBar-AC4pGV .winButton-iRh8-Z {
+  padding-top: 4px;
+}
