@@ -646,3 +646,46 @@ Use that instead.
 .ownerIcon-2NH9FM .icon-1A2_vz {
     fill: #ff3131;
 }
+/* Inline status selection - yoinked from mackenzie#0173 */
+.mask-1qbNWk.icon-1IxfJ2 {
+    --status-icon-size: 75%;
+    height: var(--status-icon-size); 
+    width: var(--status-icon-size);
+    margin-left: 33%;
+  }
+  .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 >
+  .menu-3sdvDG.styleFixed-sX-yHV >
+  .scroller-3BxosC.thin-1ybCId.scrollerBase-289Jih {
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto auto auto auto;
+    visibility: visible;
+  }
+  .item-1tOPte.colorDefault-2K3EoJ:nth-of-type(7) {
+    grid-column: 1/5;
+  }
+  .animatorTop-2Y7x2r.scale-3iLZhb.didRender-33z1u8 {
+    transition: opacity 0.15s linear 0s;
+  }
+  #status-picker-custom-status .status-1fhblQ {
+    color: var(--reply-content-colour);
+  }
+  #status-picker-custom-status .status-1fhblQ:after {
+    content: ', mac!';
+  }
+  #status-picker-custom-status {
+    transition: .5s;
+    color: #ff8059;
+  }
+  #status-picker-custom-status:hover {
+    transition: .5s;
+    color: #ff6739;
+  }
+  #status-picker-idle .status-1fhblQ,
+  #status-picker-dnd .status-1fhblQ,
+  #status-picker-online .status-1fhblQ,
+  #status-picker-invisible .status-1fhblQ,
+  .description-2L932D,
+  .separator-2I32lJ {
+    display: none;
+  }
