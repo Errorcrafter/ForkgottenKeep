@@ -616,13 +616,26 @@ Use that instead.
   position: absolute;
   width: 4000px;
   top: 5px;
-  padding-left: -3px;
+  padding-left: 5px;
   font-family: 'Discord';
-  color: #ff3131;
+  color: #ff6739;
 }
 .wordmark-2iDDfm > svg {
   width: 0px;
 }
+/* lil icon in the watermark */
+.wordmark-2iDDfm {
+    left: 25px;
+}
+.wordmark-2iDDfm:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    bottom: 0;
+    right: 0;
+    background: url(https://cdn.discordapp.com/attachments/764362151367278607/830478933572976660/pyrocord_logo.png) center/20px no-repeat;
+  }
 /* making open folder icons more visible */
 .theme-dark .expandedFolderBackground-1cujaW {
     position: absolute;
