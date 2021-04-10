@@ -635,16 +635,8 @@ Use that instead.
     transition: background-color .15s ease-out;
     background-color: #2b2b2b;
 }
-.theme-dark .expandedFolderIconWrapper-Huv7rA:hover {
-    transition: .5s;
-    background-color: #ff73009f;
-}
 .theme-dark .expandedFolderIconWrapper-Huv7rA {
     transition: .5s;
-}
-/* owner tag goes brrrrr */
-.ownerIcon-2NH9FM .icon-1A2_vz {
-    fill: #ff3131;
 }
 /* Inline status selection - yoinked from mackenzie#0173 */
 .mask-1qbNWk.icon-1IxfJ2 {
