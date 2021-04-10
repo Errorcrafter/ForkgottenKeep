@@ -9,9 +9,6 @@ Use that instead.
   --background-secondary: #1d1d1d !important;
   --background-tertiary: #181818 !important;
   --background-text-area: #292929 !important;
-
-  /* custom home icon :D */
-  --friends-icon: url(https://cdn.discordapp.com/attachments/764362151367278607/830478933572976660/pyrocord_logo.png);
 }
 .theme-dark .scrollableContainer-2NUZem {
     overflow-x: hidden;
@@ -735,26 +732,38 @@ Use that instead.
 }
 /* Pinned home button by Nyria#3683 and Zorby#1431 */
 .tutorialContainer-2sGCg9 {
-    position: fixed;
-    z-index: 1;
-    background: linear-gradient(var(--background-tertiary) 100%, transparent);
+  position: fixed;
+  z-index: 1;
+  background: linear-gradient(var(--background-tertiary) 100%, transparent);
 }
 .guilds-1SWlCJ .scroller-1Bvpku {
-    contain: none !important;
-    padding-top: 0;
+  contain: none !important;
+  padding-top: 0;
 }
 .guilds-1SWlCJ .scroller-1Bvpku > [aria-label], .guilds-1SWlCJ .scroller-1Bvpku > [style] {
-    margin-top: 55px;
+  margin-top: 55px;
 }
 .guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] {
-    margin-top: 0px;
+  margin-top: 0px;
 }
 .wrapper-3NnKdC > ul > .scroller-1Bvpku > div[aria-label="Servers"] {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 .tutorialContainer-2sGCg9 {
-    box-shadow: 0px 5px 5px var(--background-tertiary);
+  box-shadow: 0px 5px 5px var(--background-tertiary);
 }
 .container-3w7J-x {
-    z-index: 1;
+  z-index: 1;
+}
+/* very scuffed home button (thanks akisblack#0990!) */
+.wrapper-1BJsBx[aria-label="Home"] .childWrapper-anI2G9 {
+  background-image: url('https://cdn.discordapp.com/attachments/764362151367278607/830478933572976660/pyrocord_logo.png') ;
+  background-position: center;
+  background-size: cover;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
+.homeIcon-FuNwkv {
+  display: none 
 }
