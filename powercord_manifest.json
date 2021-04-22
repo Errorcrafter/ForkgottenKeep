@@ -1,7 +1,7 @@
 {
     "name": "PyroCord",
     "description": "fork of awish's forgottenkeep",
-    "version": "0.1",
+    "version": "0.3",
     "author": "macpherson#1415",
     "theme": "index.css",
     "license": "MIT"
