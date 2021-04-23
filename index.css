@@ -3,6 +3,13 @@ Note: In case you haven't gotten the memo, nearly everything here is ripped stra
 Use that instead.
 */
 
+/* custom font, hope it works */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: "JetBrains Mono",monospace;
+}
+
+/* rest of the theme (skidded from forgottenkeep bhjkhevhjbkjsjhkn) */
 .theme-dark,
 :root {
   --background-primary: #181818 !important;
