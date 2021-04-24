@@ -7,7 +7,7 @@ Use that instead.
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: "JetBrains Mono",monospace;
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 /* rest of the theme (skidded from forgottenkeep bhjkhevhjbkjsjhkn) */
@@ -823,7 +823,4 @@ Use that instead.
 }
 .headerPlaying-j0WQBV .headerTop-3C2Zn0 {
     background-color: #ff6739;
-}
-.headerSpotify-zpWxgT .headerTop-2BwW8b {
-    background-color: #3c39ff;
 }
