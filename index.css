@@ -7,7 +7,7 @@ Use that instead.
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 ::-webkit-input-placeholder, body, button, input, select, textarea {
     font-family: "JetBrains Mono",monospace;
-    font-size: 10px;
+    font-size: medium;
 }
 
 /* rest of the theme (skidded from forgottenkeep bhjkhevhjbkjsjhkn) */
@@ -796,11 +796,18 @@ Use that instead.
 .headerPlaying-j0WQBV .headerTop-3C2Zn0 {
     background-color: #ff6739;
 }
-/**/
+/* wumpus tooltip change cos fuck the original text (Nao Tomori#1166) */
 .wumpusTooltip-65YlMT {
     font-size: 0px;
 }
 .wumpusTooltip-65YlMT::before {
     font-size: 12px;
     content: "I'm a fucking idiot or an alt"
+}
+/* reactions */
+.reaction-1hd86g.reactionMe-wv5HKu{
+    background-color: #ff80594f !important;
+}
+.reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV{
+    color: #ff6739;
 }
