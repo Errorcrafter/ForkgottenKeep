@@ -5,9 +5,13 @@ Use that instead.
 
 /* custom font, hope it works */
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 ::-webkit-input-placeholder, body, button, input, select, textarea {
+    font-family: "Poppins";
+}
+::-webkit-input-placeholder, code {
     font-family: "JetBrains Mono",monospace;
-    font-size: medium;
+    font-size: smaller;
 }
 
 /* rest of the theme (skidded from forgottenkeep bhjkhevhjbkjsjhkn) */
@@ -810,4 +814,13 @@ Use that instead.
 }
 .reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV{
     color: #ff6739;
+}
+/* fuck sending gifts */
+button[aria-label='Send a gift'] {
+  display: none !important;
+  opacity: 0;
+}
+::selection {
+  background-color: #ff6739;
+  opacity: 50%;
 }
