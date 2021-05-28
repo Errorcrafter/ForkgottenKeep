@@ -797,13 +797,13 @@ Use that instead.
 }
 /* user popout colours */
 .activity-11LB_k{
-    background-color: #e65b31;
+    background-color: #272727;
 }
 .activity-1ythUs{
-    background-color: #e65b31;
+    background-color: #272727;
 }
 .headerPlaying-j0WQBV .headerTop-3C2Zn0 {
-    background-color: #ff6739;
+    background-color: #181818;
 }
 /* wumpus tooltip change cos fuck the original text (Nao Tomori#1166) */
 .wumpusTooltip-65YlMT {
@@ -836,7 +836,7 @@ a high speed car crash */
 .colorLink-2vG20E {
     color:#ff6739
 }
-.reaction-1hd86g,.reaction-1hd86g:hover{
+.reaction-1hd86g {
     border: none;
     border-radius:.25rem;
 }
