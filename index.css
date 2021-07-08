@@ -7,7 +7,7 @@ Use that instead.
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
 /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
-::-webkit-input-placeholder, code {
+::-webkit-input-placeholder, code, code.inline {
     font-family: "JetBrains Mono",monospace;
     font-size: smaller;
 }
@@ -806,10 +806,10 @@ Use that instead.
     background-color: #181818;
 }
 /* wumpus tooltip change cos fuck the original text (Nao Tomori#1166) */
-.wumpusTooltip-65YlMT {
+.wumpusTooltip-3V90tI {
     font-size: 0px;
 }
-.wumpusTooltip-65YlMT::before {
+.wumpusTooltip-3V90tI::before {
     font-size: 12px;
     content: "I'm a fucking idiot or an alt"
 }
@@ -820,6 +820,12 @@ Use that instead.
 .reactionMe-wv5HKu .reactionCount-2mvXRV, .reactionMe-wv5HKu:hover .reactionCount-2mvXRV{
     color: #ff6739;
     transition: 0.2s;
+}
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+    color: #ff6739;
+}
+.reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV:hover {
+    color: #ff3131;
 }
 /* fuck sending gifts */
 button[aria-label='Send a gift'] {
