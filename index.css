@@ -11,7 +11,7 @@ code, code.inline {
     font-family: "JetBrains Mono",monospace !important;
     font-size: smaller;
 }
-::-webkit-input-placeholder, body, button, input, select, textarea, header, text, span {
+::-webkit-input-placeholder, body, button, input, select, textarea, header, text {
     font-family: "Coda" !important;
 }
 
@@ -753,31 +753,6 @@ code, code.inline {
 .maximized .titleBar-AC4pGV .winButton-iRh8-Z {
   padding-top: 4px;
 }
-/* Pinned home button by Nyria#3683 and Zorby#1431 */
-.tutorialContainer-2sGCg9 {
-  position: fixed;
-  z-index: 1;
-  background: linear-gradient(var(--background-tertiary) 100%, transparent);
-}
-.guilds-1SWlCJ .scroller-1Bvpku {
-  contain: none !important;
-  padding-top: 0;
-}
-.guilds-1SWlCJ .scroller-1Bvpku > [aria-label], .guilds-1SWlCJ .scroller-1Bvpku > [style] {
-  margin-top: 55px;
-}
-.guilds-1SWlCJ .scroller-1Bvpku > [style] ~ [aria-label] {
-  margin-top: 0px;
-}
-.wrapper-3NnKdC > ul > .scroller-1Bvpku > div[aria-label="Servers"] {
-  margin-top: 60px;
-}
-.tutorialContainer-2sGCg9 {
-  box-shadow: 0px 5px 5px var(--background-tertiary);
-}
-.container-3w7J-x {
-  z-index: 1;
-}
 /* very scuffed home button */
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
     background-color: #ff6739;
@@ -840,9 +815,19 @@ button[aria-label='Send a gift'] {
 rebrand, hope the exec who made it dies in
 a high speed car crash */
 .colorLink-2vG20E {
-    color:#ff6739
+    color:#ff6739;
 }
 .reaction-1hd86g {
     border: none;
     border-radius:.25rem;
+}
+/* join server and guild discovery*/
+svg .circleIcon-2_77lA {
+    color: #ff6739;
+}
+svg .circleIcon-2_77lA:hover {
+    color: #fff;
+}
+div .circleIconButton-hZmpE8:hover {
+    background-color: #ff6739;
 }
